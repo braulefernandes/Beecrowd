@@ -1,4 +1,3 @@
-
 # 🧠 Beecrowd
 
 Este repositório é dedicado às minhas soluções para os desafios da plataforma [Beecrowd](https://www.beecrowd.com.br/), resolvidos como parte do meu aprendizado contínuo em programação e fundamentos da ciência da computação.
@@ -17,7 +16,7 @@ Os arquivos serão organizados por linguagem e por número do problema:
 
 ## 🎯 Objetivo
 
-- Consolidar o aprendizado de algoritmos e estruturas de dados.
+- Consolidar o aprendizado de algoritmos.
 - Praticar resolução de problemas com foco em eficiência e clareza.
 - Compartilhar conhecimento com outros desenvolvedores e estudantes.
 
