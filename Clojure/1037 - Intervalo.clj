@@ -1,0 +1,17 @@
+(def valor (read))
+
+(cond  
+    (and (>= (double valor) 0.0) 
+         (<= (double valor) 25.0)
+         ) (printf "Intervalo [0,25]\n")
+    (and (> (double valor) 25.0) 
+         (<= (double valor) 50.0)
+         ) (printf "Intervalo (25,50]\n")
+    (and (> (double valor) 50.0) 
+         (<= (double valor) 75.0)
+         ) (printf "Intervalo (25,50]\n")
+    (and (> (double valor) 75.0) 
+         (<= (double valor) 100.0)
+         ) (printf"Intervalo (75,100]\n")
+    :else (printf "Fora de intervalo\n")
+    )
