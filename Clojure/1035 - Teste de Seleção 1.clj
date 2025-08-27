@@ -1,0 +1,13 @@
+(def A (read))
+(def B (read))
+(def C (read))
+(def D (read))
+
+(if (and (> B C)
+         (> D A)
+         (> (+ C D) ( + A B) 0) 
+         (> ( + A B) 0)
+         (= (mod A 2) 0)
+    )
+    (printf "Valores aceitos\n") (printf "Valores nao aceitos\n")
+)
