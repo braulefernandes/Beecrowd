@@ -1,0 +1,13 @@
+(def a (read))
+(def b (read))
+(def c (read))
+(def delta (- (Math/pow b 2) (* 4 a c)))
+(if (or (= a 0.0)
+        (< delta 0.0)
+          )(println "Impossivel calcular") 
+        (do
+        (def raizPositiva (/ (+ (* b -1) (Math/sqrt delta)) (* 2 a)))
+        (def raizNegativa (/ (- (* b -1) (Math/sqrt delta)) (* 2 a)))
+        (printf "R1 = %.5f\nR2 = %.5f\n" raizPositiva raizNegativa)
+        )
+    )
