@@ -1,0 +1,11 @@
+(def x (read))
+(def y (read))
+(cond 
+  (and (> x 0.0) (> y 0.0)) (printf "Q1\n")
+  (and (> x 0.0) (< y 0.0)) (printf "Q4\n")
+  (and (< x 0.0) (> y 0.0)) (printf "Q2\n")
+  (and (< x 0.0) (< y 0.0)) (printf "Q3\n")
+  (and (not= x 0.0) (= y 0.0)) (printf "Eixo X\n")
+  (and (= x 0.0) (not= y 0.0)) (printf "Eixo Y\n")
+    :else (printf "Origem\n")
+  )
