@@ -1,0 +1,16 @@
+(def mes (read))
+
+(cond 
+    (== mes 1) (printf "January\n")
+    (== mes 2) (printf "February\n")
+    (== mes 3) (printf "March\n")
+    (== mes 4) (printf "April\n")
+    (== mes 5) (printf "May\n")
+    (== mes 6) (printf "June\n")
+    (== mes 7) (printf "July\n")
+    (== mes 8) (printf "August\n")
+    (== mes 9) (printf "September\n")
+    (== mes 10) (printf "October\n")
+    (== mes 11) (printf "November\n")
+    (== mes 12) (printf "December\n")
+    )
